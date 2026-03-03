@@ -7,6 +7,6 @@ def decrypt():
 
     for z in Y:
         cipher += chr(ord(z) ^ K1)
-    print("Дешифртекст:", cipher)
+        print("Дешифртекст:", cipher)
 
 

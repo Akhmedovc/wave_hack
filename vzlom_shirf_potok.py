@@ -5,7 +5,7 @@ def hack_crypto():
     for key in range(1, 256):
         decrypted = ""
     
-    for z in crypted:
-        decrypted += chr(ord(z) ^ key)
+        for z in crypted:
+            decrypted += chr(ord(z) ^ key)
     
-    print("Ключ:", key, "->", decrypted)
+        print("Ключ:", key, "->", decrypted)    
